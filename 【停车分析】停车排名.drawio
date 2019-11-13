@@ -1,40 +1,17 @@
-<mxfile host="www.draw.io" modified="2019-11-13T07:46:49.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="MkoB1YpD384UN1mjTOma" version="12.2.4" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-13T07:57:14.348Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="bgE2ZEQw_9hTt622C1kt" version="12.2.4" type="github" pages="1">
   <diagram id="L4WbK76gIzjxOnFG95fo" name="Page-1">
-    <mxGraphModel dx="1012" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="772" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="fUflsA1uZveHPatxNksZ-9" value="mongoDB&amp;nbsp; 车辆停车时长数据" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Managed_Databases.svg;" parent="1" vertex="1">
           <mxGeometry x="124" y="-135" width="88" height="94" as="geometry"/>
         </mxCell>
-        <mxCell id="KI7ir71bEpRMWDz0nZgo-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="c5coazDtm47vXDaHpvgy-1" target="KI7ir71bEpRMWDz0nZgo-6">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
         <mxCell id="c5coazDtm47vXDaHpvgy-1" value="提供查询条件API" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.action;fillColor=#5294CF;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="92.5" y="50" width="63" height="64.5" as="geometry"/>
-        </mxCell>
-        <mxCell id="KI7ir71bEpRMWDz0nZgo-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="c5coazDtm47vXDaHpvgy-3" target="c5coazDtm47vXDaHpvgy-9">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="c5coazDtm47vXDaHpvgy-3" value="大数据服务器&lt;br&gt;提供触发spark离线&lt;br&gt;的计算接口" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.action;fillColor=#5294CF;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="405" y="48.5" width="63" height="64.5" as="geometry"/>
-        </mxCell>
-        <mxCell id="c5coazDtm47vXDaHpvgy-17" value="聚类结果保存至redis" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.445;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="c5coazDtm47vXDaHpvgy-9" target="KI7ir71bEpRMWDz0nZgo-6" edge="1">
-          <mxGeometry x="0.0711" y="-14" relative="1" as="geometry">
-            <mxPoint x="263" y="239" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="537" y="130"/>
-              <mxPoint x="537" y="208"/>
-              <mxPoint x="259" y="208"/>
-            </Array>
-            <mxPoint as="offset"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c5coazDtm47vXDaHpvgy-9" value="spark离线任务dbscan计算程序" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/DC_OS.svg;dashed=0;fontFamily=Helvetica;fontColor=#000000;strokeColor=#000000;fillColor=#03B5BB;" parent="1" vertex="1">
-          <mxGeometry x="607.5" y="30.5" width="100" height="100" as="geometry"/>
+          <mxGeometry x="117.5" y="37" width="63" height="64.5" as="geometry"/>
         </mxCell>
         <mxCell id="WQ_rB6_KfM2h-QvSV6rr-1" value="druid分布式引擎" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" parent="1" vertex="1">
-          <mxGeometry x="666" y="-125" width="54" height="73" as="geometry"/>
+          <mxGeometry x="690" y="-88" width="54" height="73" as="geometry"/>
         </mxCell>
         <mxCell id="WQ_rB6_KfM2h-QvSV6rr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="WQ_rB6_KfM2h-QvSV6rr-2" target="WQ_rB6_KfM2h-QvSV6rr-4" edge="1">
           <mxGeometry relative="1" as="geometry"/>
@@ -42,7 +19,7 @@
         <mxCell id="WQ_rB6_KfM2h-QvSV6rr-2" value="spark定时程序&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.maintenance_window;fillColor=#759C3E;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="349.5" y="-127" width="75" height="78" as="geometry"/>
         </mxCell>
-        <mxCell id="WQ_rB6_KfM2h-QvSV6rr-16" value="数据最终&lt;br&gt;汇入druid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="WQ_rB6_KfM2h-QvSV6rr-4" target="WQ_rB6_KfM2h-QvSV6rr-1" edge="1">
+        <mxCell id="WQ_rB6_KfM2h-QvSV6rr-16" value="数据最终&lt;br&gt;汇入druid" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="WQ_rB6_KfM2h-QvSV6rr-4" target="WQ_rB6_KfM2h-QvSV6rr-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="626" y="-88" as="targetPoint"/>
           </mxGeometry>
@@ -50,11 +27,12 @@
         <mxCell id="WQ_rB6_KfM2h-QvSV6rr-4" value="数据保存至&lt;br&gt;kafka" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" parent="1" vertex="1">
           <mxGeometry x="468" y="-127" width="78" height="78" as="geometry"/>
         </mxCell>
-        <mxCell id="WQ_rB6_KfM2h-QvSV6rr-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;strokeWidth=4;curved=1;" parent="1" source="c5coazDtm47vXDaHpvgy-9" target="WQ_rB6_KfM2h-QvSV6rr-1" edge="1">
+        <mxCell id="WQ_rB6_KfM2h-QvSV6rr-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;strokeWidth=4;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="c5coazDtm47vXDaHpvgy-1" target="WQ_rB6_KfM2h-QvSV6rr-1" edge="1">
           <mxGeometry x="-0.2771" y="33" width="160" relative="1" as="geometry">
-            <mxPoint x="264.5" y="24" as="sourcePoint"/>
+            <mxPoint x="707.5" y="58.71316614420061" as="sourcePoint"/>
             <mxPoint x="424.5" y="24" as="targetPoint"/>
             <Array as="points">
+              <mxPoint x="514" y="92"/>
               <mxPoint x="817" y="11"/>
             </Array>
             <mxPoint as="offset"/>
@@ -80,17 +58,6 @@
               <mxPoint x="305" y="-161"/>
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="KI7ir71bEpRMWDz0nZgo-9" value="没有查到&lt;br&gt;数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="KI7ir71bEpRMWDz0nZgo-6" target="c5coazDtm47vXDaHpvgy-3">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="KI7ir71bEpRMWDz0nZgo-13" value="查到数据&lt;br&gt;直接返回" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;exitX=0.418;exitY=-0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.855;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KI7ir71bEpRMWDz0nZgo-6" target="c5coazDtm47vXDaHpvgy-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="195" y="31" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KI7ir71bEpRMWDz0nZgo-6" value="redis" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="225" y="53.5" width="67" height="56" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
